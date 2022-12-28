@@ -1,7 +1,7 @@
 # XqLineNotifier
 
 1. 常駐執行 XqLineNotifier.exe ，於UI中輸入Line token (以下均假設XqLineNotifier.exe放置於C:\XqLog\ 下長駐執行)
-2. XQ執行Print時，必需以****.xqlog***的檔案名稱，輸出到 C:\XqLog資料夾中。
+2. XQ執行Print時，必需以** *.xqlog **的檔案名稱，輸出到 C:\XqLog資料夾中。
 例如: 若是長駐執行 "C:\XqLog\XqLineNotifier.exe"，則XS中要使用以下語法:
 ```
 Print(File("C:\XqLog\xxx.xqlog"), "[要給Line的訊息]");
